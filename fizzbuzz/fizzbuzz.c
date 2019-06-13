@@ -10,7 +10,32 @@
 */
 int fizzbuzz(int n)
 {
+    // char fizzBuzz[8] = "fizzbuzz";
+    // char fizz[4] = "fizz";
+    // char buzz[4] = "buzz";
+    int count = 0;
 
+    for (int i = 0; i < n; i++)
+    {
+        if (i % 3 == 0 && i % 5 == 0)
+        {
+            printf("fizzBuzz");
+        }
+        else if (i % 5 == 0)
+        {
+            printf("fizz");
+        }
+        else if (i % 3 == 0)
+        {
+            printf("buzz");
+        }
+        else
+        {
+            count++;
+        }
+        printf("\n");
+    }
+    return count;
 }
 
 #ifndef TESTING

@@ -14,17 +14,7 @@ int string_length(char *s)
     {
         i++;
     }
-    // for (i; i != '\0'; i++)
-    // {
-    //     if (s[i] == '\0')
-    //     {
-    //         return count;
-    //     }
-    //     else
-    //     {
-    //         count++;
-    //     }
-    // }
+
     return i;
 }
 
